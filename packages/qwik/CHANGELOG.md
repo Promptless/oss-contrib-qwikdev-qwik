@@ -1,5 +1,19 @@
 # @qwik.dev/core
 
+## 2.0.0-beta.25
+
+### Minor Changes
+
+- ✨ serialized state should be up to 30% smaller (by [@Varixo](https://github.com/Varixo) in [#8375](https://github.com/QwikDev/qwik/pull/8375))
+
+### Patch Changes
+
+- 🐞🩹 event calls for disconnected elements should be ignored (by [@Varixo](https://github.com/Varixo) in [#8383](https://github.com/QwikDev/qwik/pull/8383))
+
+- 🐞🩹 resuming vnodes with non-qwik element in the middle (by [@Varixo](https://github.com/Varixo) in [#8380](https://github.com/QwikDev/qwik/pull/8380))
+
+- 🐞🩹 bind:value and bind:checked should be correctly converted in some edge cases (by [@Varixo](https://github.com/Varixo) in [#8384](https://github.com/QwikDev/qwik/pull/8384))
+
 ## 2.0.0-beta.24
 
 ### Minor Changes
